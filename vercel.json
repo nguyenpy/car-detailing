@@ -1,0 +1,12 @@
+{
+    "rewrites": [
+      {
+        "source": "/members",
+        "destination": "/member.html"
+      },
+      {
+        "source": "/(.*)",
+        "destination": "/index.html"
+      }
+    ]
+  }
